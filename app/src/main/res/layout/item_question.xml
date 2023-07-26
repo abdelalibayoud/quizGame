@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+    <!-- item_question.xml -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textViewLevel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/level_1"
+                android:gravity="center"
+                android:fontFamily="@font/bungee_inline"
+                android:textColor="@color/orange_text"
+                android:textSize="17sp"
+                android:background="@drawable/background_txtlevels_historique"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:fontFamily="@font/bungee_inline"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/quiz_name"
+                        android:fontFamily="@font/bungee_inline"
+                        android:textColor="@color/colorNeutral"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:background="@drawable/background_txtview_historique"
+                        tools:ignore="RtlSymmetry" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/correct_answers"
+                        android:fontFamily="@font/bungee_inline"
+                        android:textColor="@color/colorNeutral"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:background="@drawable/background_txtview_historique"
+                        tools:ignore="RtlSymmetry" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/bungee_inline"
+                        android:text="@string/incorrect_answers"
+                        android:textColor="@color/colorNeutral"
+                        android:textSize="15sp"
+                        android:paddingHorizontal="5dp"
+                        android:gravity="center"
+                        android:background="@drawable/background_txtview_historique"
+                        tools:ignore="RtlSymmetry" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/bungee_inline"
+                        android:text="Score"
+                        android:textColor="@color/colorNeutral"
+                        android:textSize="15sp"
+                          android:gravity="center"
+                        android:background="@drawable/background_txtview_historique1"
+                        tools:ignore="RtlSymmetry" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewQuizName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Quize name"
+                        android:gravity="center"
+                        android:fontFamily="@font/bungee_inline"
+                        android:textColor="@color/orange_text"
+                        android:textSize="15sp"
+                        android:background="@drawable/background_txtview_historique"/>
+
+
+                    <TextView
+                        android:id="@+id/textViewCorrectAnswers"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:gravity="center"
+                        android:fontFamily="@font/bungee_inline"
+                        android:textColor="@color/orange_text"
+                        android:textSize="15sp"
+                        android:background="@drawable/background_txtview_historique"/>
+
+                    <TextView
+                        android:id="@+id/textViewIncorrectAnswers"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:gravity="center"
+                        android:fontFamily="@font/bungee_inline"
+                        android:textColor="@color/orange_text"
+                        android:textSize="15sp"
+                        android:background="@drawable/background_txtview_historique"/>
+                    <TextView
+                        android:id="@+id/textViewScore"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="60"
+                        android:gravity="center"
+                        android:fontFamily="@font/bungee_inline"
+                        android:textColor="@color/orange_text"
+                        android:textSize="15sp"
+                        android:background="@drawable/background_txtview_historique2"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

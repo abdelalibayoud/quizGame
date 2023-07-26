@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="style_textView">
+        <item name="android:text">"@string/a_about"</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginVertical">5dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:paddingVertical">10dp</item>
+        <item name="android:paddingHorizontal">10dp</item>
+        <item name="color">@color/black</item>
+    </style>
+    <style name="style_levelsView">
+        <item name="android:background"></item>
+        <item name="android:layout_marginHorizontal">0dp</item>
+        <item name="android:textColor">@color/orange_text</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+      <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
+</resources>

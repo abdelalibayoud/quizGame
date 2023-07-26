@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.LevelsActivity"
+    android:padding="10dp"
+    android:background="@color/colorWarning"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_back_categories"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="top|left"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/baseline_arrow_circle_left_24"
+        app:layout_constraintBottom_toTopOf="@+id/more_detail"
+        app:layout_constraintEnd_toStartOf="@+id/more_detail"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:id="@+id/more_detail"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_20sdp"
+        android:background="@drawable/layout_level_background"
+        android:padding="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.789"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/column_quiz_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="a"
+            android:fontFamily="@font/bungee_inlin"
+            android:textColor="@color/orange_text"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            tools:ignore="SmallSp" />
+
+        <ProgressBar
+            android:id="@+id/progressBarTotalScore"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="236dp"
+            android:layout_height="13dp"
+            android:layout_marginBottom="16dp"
+            android:progressDrawable="@drawable/backround_progressbar"
+            android:progressTint="@color/orange_text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.327"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/column_quiz_name"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/txtView_percentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10 %"
+            android:fontFamily="@font/bungee_inlin"
+            android:textColor="@color/orange_text"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.686"
+            app:layout_constraintStart_toEndOf="@+id/progressBarTotalScore"
+            app:layout_constraintTop_toBottomOf="@+id/txtTotalScore"
+            app:layout_constraintVertical_bias="0.375" />
+
+        <TextView
+            android:id="@+id/txtTotalScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="17sp"
+            android:fontFamily="@font/bungee_inlin"
+            android:textStyle="normal"
+            android:textColor="@color/orange_text"
+            app:layout_constraintBottom_toTopOf="@+id/progressBarTotalScore"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/column_quiz_name" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/arrow_right_24"
+            android:text="more detail"
+            android:textColor="@color/orange_text"
+            android:paddingTop="2dp"
+            android:fontFamily="@font/bungee_inlin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/layout_level_background"
+        android:padding="20dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.945">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_level_2"
+            style="@style/style_levelsView"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/levels_background"
+            android:fontFamily="@font/bungee_inlin"
+            android:text="2"
+            app:layout_constraintEnd_toStartOf="@+id/button_level_3"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/button_level_1"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_level_1"
+            style="@style/style_levelsView"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/levels_background"
+            android:fontFamily="@font/bungee_inlin"
+            android:text="1"
+            app:layout_constraintEnd_toStartOf="@+id/button_level_2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_level_3"
+            style="@style/style_levelsView"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="18dp"
+            android:background="@drawable/levels_background"
+            android:fontFamily="@font/bungee_inlin"
+            android:text="3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/button_level_2"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_level_10"
+            style="@style/style_levelsView"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/levels_background"
+            android:fontFamily="@font/bungee_inlin"
+            android:text="10"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/button_level_8"
+            app:layout_constraintStart_toStartOf="@+id/button_level_8"
+            app:layout_constraintTop_toBottomOf="@+id/button_level_8"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_level_8"
+            style="@style/style_levelsView"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/levels_background"
+            android:fontFamily="@font/bungee_inlin"
+            android:text="8"
+            app:layout_constraintEnd_toStartOf="@+id/button_level_9"
+
+            app:layout_constraintStart_toEndOf="@+id/button_level_7"
+            app:layout_constraintTop_toBottomOf="@+id/button_level_5"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_level_9"
+            style="@style/style_levelsView"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/levels_background"
+            android:fontFamily="@font/bungee_inlin"
+            android:text="9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_level_6"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_level_7"
+            style="@style/style_levelsView"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/levels_background"
+            android:fontFamily="@font/bungee_inlin"
+            android:text="7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_level_4"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_level_5"
+            style="@style/style_levelsView"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/levels_background"
+            android:fontFamily="@font/bungee_inlin"
+            android:text="5"
+            app:layout_constraintEnd_toStartOf="@+id/button_level_6"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/button_level_4"
+            app:layout_constraintTop_toBottomOf="@+id/button_level_2"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_level_4"
+            style="@style/style_levelsView"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/levels_background"
+            android:fontFamily="@font/bungee_inlin"
+            android:text="4"
+            app:layout_constraintEnd_toStartOf="@+id/button_level_5"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_level_1"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_level_6"
+            style="@style/style_levelsView"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="18dp"
+            android:background="@drawable/levels_background"
+            android:fontFamily="@font/bungee_inlin"
+            android:text="6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/button_level_5"
+            app:layout_constraintTop_toBottomOf="@+id/button_level_3"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

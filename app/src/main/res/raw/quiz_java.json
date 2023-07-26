@@ -1,0 +1,2094 @@
+{
+    "Java_Quiz": [
+        {
+            "nothing": []
+        },
+        {
+            "level_1": [
+                {
+                    "question": "What is the output of the following Java code?\n\npublic class Example {\n  public static void main(String[] args) {\n    int x = 5;\n    System.out.println(x++);\n  }\n}",
+                    "options": [
+                        "5",
+                        "6",
+                        "Compilation error",
+                        "Runtime error"
+                    ],
+                    "answer": "5"
+                },
+                {
+                    "question": "Which keyword is used to define a constant in Java?",
+                    "options": [
+                        "constant",
+                        "static",
+                        "final",
+                        "constant"
+                    ],
+                    "answer": "final"
+                },
+                {
+                    "question": "What is the correct syntax to declare a variable of type 'double' in Java?",
+                    "options": [
+                        "double number;",
+                        "variable double;",
+                        "int double;",
+                        "double = 0;"
+                    ],
+                    "answer": "double number;"
+                },
+                {
+                    "question": "What is the default value of the 'boolean' type in Java?",
+                    "options": [
+                        "true",
+                        "false",
+                        "0",
+                        "null"
+                    ],
+                    "answer": "false"
+                },
+                {
+                    "question": "Which of the following is NOT a valid identifier in Java?",
+                    "options": [
+                        "myVariable",
+                        "_variable",
+                        "2variable",
+                        "variable_2"
+                    ],
+                    "answer": "2variable"
+                },
+                {
+                    "question": "What is the output of the following Java code?\n\npublic class Example {\n  public static void main(String[] args) {\n    String str = \"Hello, World!\";\n    System.out.println(str.length());\n  }\n}",
+                    "options": [
+                        "13",
+                        "12",
+                        "11",
+                        "Compilation error"
+                    ],
+                    "answer": "13"
+                },
+                {
+                    "question": "Which keyword is used to create an object in Java?",
+                    "options": [
+                        "object",
+                        "new",
+                        "instance",
+                        "create"
+                    ],
+                    "answer": "new"
+                },
+                {
+                    "question": "What is the correct way to write a single-line comment in Java?",
+                    "options": [
+                        "/* This is a comment */",
+                        "// This is a comment",
+                        "<!-- This is a comment -->",
+                        "(* This is a comment *)"
+                    ],
+                    "answer": "// This is a comment"
+                },
+                {
+                    "question": "What does the 'static' keyword mean in Java?",
+                    "options": [
+                        "It indicates that a variable is constant",
+                        "It indicates that a method cannot be overridden",
+                        "It indicates that a class cannot be instantiated",
+                        "It indicates that a variable is local to a method"
+                    ],
+                    "answer": "It indicates that a method cannot be overridden"
+                },
+                {
+                    "question": "What is the correct syntax to create a method named 'myMethod' that takes two parameters in Java?",
+                    "options": [
+                        "void myMethod(int x, int y) {}",
+                        "myMethod(int x, int y) {}",
+                        "void myMethod(x, y) {}",
+                        "myMethod(x, y) {}"
+                    ],
+                    "answer": "void myMethod(int x, int y) {}"
+                }
+            ]
+        },
+        {
+            "level_2": [
+                {
+                    "question": "What is the output of the following Java code?\n\npublic class Example {\n  public static void main(String[] args) {\n    int[] numbers = {1, 2, 3};\n    System.out.println(numbers[3]);\n  }\n}",
+                    "options": [
+                        "1",
+                        "2",
+                        "3",
+                        "ArrayIndexOutOfBoundsException"
+                    ],
+                    "answer": "ArrayIndexOutOfBoundsException"
+                },
+                {
+                    "question": "Which of the following is used to perform dynamic memory allocation in Java?",
+                    "options": [
+                        "new",
+                        "malloc",
+                        "alloc",
+                        "create"
+                    ],
+                    "answer": "new"
+                },
+                {
+                    "question": "What is the correct way to write a conditional statement in Java?",
+                    "options": [
+                        "if-else",
+                        "switch-case",
+                        "for-loop",
+                        "while-loop"
+                    ],
+                    "answer": "if-else"
+                },
+                {
+                    "question": "What is the purpose of the 'break' statement in Java?",
+                    "options": [
+                        "To terminate a loop or switch statement",
+                        "To skip the current iteration of a loop",
+                        "To exit a method",
+                        "To define a block of code"
+                    ],
+                    "answer": "To terminate a loop or switch statement"
+                },
+                {
+                    "question": "Which Java keyword is used to refer to the current object?",
+                    "options": [
+                        "this",
+                        "self",
+                        "current",
+                        "object"
+                    ],
+                    "answer": "this"
+                },
+                {
+                    "question": "What is the output of the following Java code?\n\npublic class Example {\n  public static void main(String[] args) {\n    int x = 10;\n    if (x > 5) {\n      System.out.println(\"Hello\");\n    }\n    System.out.println(\"World\");\n  }\n}",
+                    "options": [
+                        "Hello",
+                        "World",
+                        "Hello World",
+                        "Compilation error"
+                    ],
+                    "answer": "Hello\nWorld"
+                },
+                {
+                    "question": "Which data structure in Java follows the FIFO (First-In-First-Out) principle?",
+                    "options": [
+                        "Array",
+                        "Stack",
+                        "Queue",
+                        "Set"
+                    ],
+                    "answer": "Queue"
+                },
+                {
+                    "question": "What is the purpose of the 'super' keyword in Java?",
+                    "options": [
+                        "To access the superclass members",
+                        "To access the current class members",
+                        "To create an instance of a class",
+                        "To define a constant value"
+                    ],
+                    "answer": "To access the superclass members"
+                },
+                {
+                    "question": "What is the correct way to declare a method that does not return any value in Java?",
+                    "options": [
+                        "void myMethod() {}",
+                        "int myMethod() {}",
+                        "String myMethod() {}",
+                        "double myMethod() {}"
+                    ],
+                    "answer": "void myMethod() {}"
+                },
+                {
+                    "question": "What is the output of the following Java code?\n\npublic class Example {\n  public static void main(String[] args) {\n    String str = null;\n    System.out.println(str.length());\n  }\n}",
+                    "options": [
+                        "null",
+                        "0",
+                        "NullPointerException",
+                        "Compilation error"
+                    ],
+                    "answer": "NullPointerException"
+                }
+            ]
+        },
+        {
+            "level_3": [
+                {
+                    "question": "What is the output of the following Java code?\n\npublic class Example {\n  public static void main(String[] args) {\n    int x = 10;\n    int y = 5;\n    System.out.println(x % y);\n  }\n}",
+                    "options": [
+                        "2",
+                        "5",
+                        "10",
+                        "0"
+                    ],
+                    "answer": "0"
+                },
+                {
+                    "question": "Which access modifier in Java allows a class to be accessible only within its own package?",
+                    "options": [
+                        "public",
+                        "private",
+                        "protected",
+                        "default"
+                    ],
+                    "answer": "default"
+                },
+                {
+                    "question": "What is the correct syntax to declare a two-dimensional array in Java?",
+                    "options": [
+                        "int[] arr;",
+                        "int[][] arr;",
+                        "int[][][] arr;",
+                        "int[2] arr;"
+                    ],
+                    "answer": "int[][] arr;"
+                },
+                {
+                    "question": "What is the purpose of the 'try-catch' block in Java?",
+                    "options": [
+                        "To handle exceptions",
+                        "To terminate the program",
+                        "To declare variables",
+                        "To define a loop"
+                    ],
+                    "answer": "To handle exceptions"
+                },
+                {
+                    "question": "Which Java keyword is used to prevent a class from being inherited?",
+                    "options": [
+                        "static",
+                        "abstract",
+                        "final",
+                        "extends"
+                    ],
+                    "answer": "final"
+                },
+                {
+                    "question": "What is the output of the following Java code?\n\npublic class Example {\n  public static void main(String[] args) {\n    for (int i = 0; i < 5; i++) {\n      if (i == 3) {\n        continue;\n      }\n      System.out.print(i + \" \");\n    }\n  }\n}",
+                    "options": [
+                        "0 1 2 3",
+                        "0 1 2 4",
+                        "0 1 2 3 4",
+                        "0 1 2"
+                    ],
+                    "answer": "0 1 2 4"
+                },
+                {
+                    "question": "Which data structure in Java does not allow duplicate values?",
+                    "options": [
+                        "Array",
+                        "List",
+                        "Set",
+                        "Map"
+                    ],
+                    "answer": "Set"
+                },
+                {
+                    "question": "What is the purpose of the 'abstract' keyword in Java?",
+                    "options": [
+                        "To define a base class",
+                        "To create an object",
+                        "To declare variables",
+                        "To perform arithmetic operations"
+                    ],
+                    "answer": "To define a base class"
+                },
+                {
+                    "question": "What is the correct way to write an infinite loop in Java?",
+                    "options": [
+                        "for (;;) {}",
+                        "while (true) {}",
+                        "do {} while (true);",
+                        "All of the above"
+                    ],
+                    "answer": "All of the above"
+                },
+                {
+                    "question": "What is the output of the following Java code?\n\npublic class Example {\n  public static void main(String[] args) {\n    int x = 5;\n    System.out.println(x == 5 ? \"Yes\" : \"No\");\n  }\n}",
+                    "options": [
+                        "Yes",
+                        "No",
+                        "true",
+                        "false"
+                    ],
+                    "answer": "Yes"
+                }
+            ]
+        },
+        {
+            "level_4": [
+                {
+                    "question": "What is the output of the following Java code?\n\npublic class Example {\n  public static void main(String[] args) {\n    String str = \"Java\";\n    str.concat(\" Programming\");\n    System.out.println(str);\n  }\n}",
+                    "options": [
+                        "Java",
+                        "Programming",
+                        "Java Programming",
+                        "Compilation error"
+                    ],
+                    "answer": "Java"
+                },
+                {
+                    "question": "Which Java keyword is used to explicitly throw an exception?",
+                    "options": [
+                        "exception",
+                        "try",
+                        "throw",
+                        "catch"
+                    ],
+                    "answer": "throw"
+                },
+                {
+                    "question": "What is the correct way to compare two String objects for equality in Java?",
+                    "options": [
+                        "x == y",
+                        "x.equals(y)",
+                        "x.compareTo(y)",
+                        "x.matches(y)"
+                    ],
+                    "answer": "x.equals(y)"
+                },
+                {
+                    "question": "What is the purpose of the 'interface' keyword in Java?",
+                    "options": [
+                        "To define a subclass",
+                        "To implement multiple inheritance",
+                        "To create an object",
+                        "To declare variables"
+                    ],
+                    "answer": "To implement multiple inheritance"
+                },
+                {
+                    "question": "Which Java package contains the classes for basic input and output operations?",
+                    "options": [
+                        "java.io",
+                        "java.util",
+                        "java.lang",
+                        "java.net"
+                    ],
+                    "answer": "java.io"
+                },
+                {
+                    "question": "What is the output of the following Java code?\n\npublic class Example {\n  public static void main(String[] args) {\n    int x = 5;\n    int result = (x < 10) ? 1 : 0;\n    System.out.println(result);\n  }\n}",
+                    "options": [
+                        "1",
+                        "0",
+                        "true",
+                        "false"
+                    ],
+                    "answer": "1"
+                },
+                {
+                    "question": "Which data structure in Java allows key-value pairs to be stored?",
+                    "options": [
+                        "Array",
+                        "List",
+                        "Set",
+                        "Map"
+                    ],
+                    "answer": "Map"
+                },
+                {
+                    "question": "What is the purpose of the 'static' keyword when applied to a variable in Java?",
+                    "options": [
+                        "To indicate that the variable is constant",
+                        "To create an instance variable",
+                        "To indicate that the variable belongs to the class",
+                        "To define a local variable"
+                    ],
+                    "answer": "To indicate that the variable belongs to the class"
+                },
+                {
+                    "question": "What is the correct way to write a 'for-each' loop in Java?",
+                    "options": [
+                        "for (int i = 0; i < array.length; i++) {}",
+                        "for (int i : array) {}",
+                        "for (int i = 0; i < n; i++) {}",
+                        "for (int i = n; i > 0; i--) {}"
+                    ],
+                    "answer": "for (int i : array) {}"
+                },
+                {
+                    "question": "What is the output of the following Java code?\n\npublic class Example {\n  public static void main(String[] args) {\n    System.out.println(Math.pow(2, 3));\n  }\n}",
+                    "options": [
+                        "2",
+                        "3",
+                        "8",
+                        "6"
+                    ],
+                    "answer": "8"
+                }
+            ]
+        },
+        {
+            "level_5": [
+                {
+                    "question": "What is the output of the following Java code?\n\npublic class Example {\n  public static void main(String[] args) {\n    int x = 10;\n    int y = 5;\n    int z = x++ - --y;\n    System.out.println(z);\n  }\n}",
+                    "options": [
+                        "5",
+                        "6",
+                        "9",
+                        "10"
+                    ],
+                    "answer": "10"
+                },
+                {
+                    "question": "Which Java keyword is used to create a thread?",
+                    "options": [
+                        "process",
+                        "runnable",
+                        "thread",
+                        "execute"
+                    ],
+                    "answer": "thread"
+                },
+                {
+                    "question": "What is the correct syntax to declare an array list of integers in Java?",
+                    "options": [
+                        "ArrayList<Integer> list = new ArrayList<Integer>();",
+                        "ArrayList list = new ArrayList();",
+                        "ArrayList<int> list = new ArrayList<int>();",
+                        "ArrayList list = new ArrayList<Integer>();"
+                    ],
+                    "answer": "ArrayList<Integer> list = new ArrayList<Integer>();"
+                },
+                {
+                    "question": "What is the purpose of the 'finally' block in Java exception handling?",
+                    "options": [
+                        "To handle exceptions",
+                        "To specify the exception type",
+                        "To clean up resources",
+                        "To ignore exceptions"
+                    ],
+                    "answer": "To clean up resources"
+                },
+                {
+                    "question": "Which Java keyword is used to indicate that a method does not return any value?",
+                    "options": [
+                        "void",
+                        "null",
+                        "empty",
+                        "none"
+                    ],
+                    "answer": "void"
+                },
+                {
+                    "question": "What is the output of the following Java code?\n\npublic class Example {\n  public static void main(String[] args) {\n    String str = \"Java\";\n    String newStr = str.toUpperCase();\n    System.out.println(newStr);\n  }\n}",
+                    "options": [
+                        "Java",
+                        "JAVA",
+                        "java",
+                        "Compilation error"
+                    ],
+                    "answer": "JAVA"
+                },
+                {
+                    "question": "Which Java collection class provides an ordered, index-based data structure?",
+                    "options": [
+                        "ArrayList",
+                        "HashSet",
+                        "HashMap",
+                        "LinkedList"
+                    ],
+                    "answer": "ArrayList"
+                },
+                {
+                    "question": "What is the purpose of the 'extends' keyword in Java?",
+                    "options": [
+                        "To declare a variable",
+                        "To define a method",
+                        "To inherit a class",
+                        "To perform type casting"
+                    ],
+                    "answer": "To inherit a class"
+                },
+                {
+                    "question": "What is the correct way to write a 'do-while' loop in Java?",
+                    "options": [
+                        "do { /* code */ } while (condition);",
+                        "while (condition) { /* code */ } do;",
+                        "for (int i = 0; i < n; i++) { /* code */ }",
+                        "if (condition) { /* code */ } else { /* code */ }"
+                    ],
+                    "answer": "do { /* code */ } while (condition);"
+                },
+                {
+                    "question": "What is the output of the following Java code?\n\npublic class Example {\n  public static void main(String[] args) {\n    double x = Math.sqrt(16);\n    System.out.println(x);\n  }\n}",
+                    "options": [
+                        "4",
+                        "16",
+                        "2.0",
+                        "Compilation error"
+                    ],
+                    "answer": "4"
+                }
+            ]
+        },
+        {
+            "level_6": [
+                {
+                    "question": "What is the output of the following Java code?\n\npublic class Example {\n  public static void main(String[] args) {\n    int x = 5;\n    int y = 3;\n    int z = (x > y) ? (x - y) : (y - x);\n    System.out.println(z);\n  }\n}",
+                    "options": [
+                        "2",
+                        "3",
+                        "5",
+                        "8"
+                    ],
+                    "answer": "2"
+                },
+                {
+                    "question": "Which Java keyword is used to create a subclass?",
+                    "options": [
+                        "super",
+                        "new",
+                        "extend",
+                        "subclass"
+                    ],
+                    "answer": "extend"
+                },
+                {
+                    "question": "What is the correct syntax to define a constant variable in Java?",
+                    "options": [
+                        "final int x = 10;",
+                        "int constant x = 10;",
+                        "const int x = 10;",
+                        "static int x = 10;"
+                    ],
+                    "answer": "final int x = 10;"
+                },
+                {
+                    "question": "What is the purpose of the 'catch' block in Java exception handling?",
+                    "options": [
+                        "To handle exceptions",
+                        "To specify the exception type",
+                        "To clean up resources",
+                        "To ignore exceptions"
+                    ],
+                    "answer": "To handle exceptions"
+                },
+                {
+                    "question": "Which Java keyword is used to allocate memory for an object?",
+                    "options": [
+                        "new",
+                        "allocate",
+                        "create",
+                        "instance"
+                    ],
+                    "answer": "new"
+                },
+                {
+                    "question": "What is the output of the following Java code?\n\npublic class Example {\n  public static void main(String[] args) {\n    int x = 10;\n    if (x > 5) {\n      System.out.println(\"Hello\");\n    } else {\n      System.out.println(\"World\");\n    }\n  }\n}",
+                    "options": [
+                        "Hello",
+                        "World",
+                        "Hello World",
+                        "Compilation error"
+                    ],
+                    "answer": "Hello"
+                },
+                {
+                    "question": "Which Java collection class allows duplicate elements and maintains insertion order?",
+                    "options": [
+                        "ArrayList",
+                        "HashSet",
+                        "HashMap",
+                        "LinkedList"
+                    ],
+                    "answer": "ArrayList"
+                },
+                {
+                    "question": "What is the purpose of the 'implements' keyword in Java?",
+                    "options": [
+                        "To declare a variable",
+                        "To define a method",
+                        "To inherit a class",
+                        "To implement an interface"
+                    ],
+                    "answer": "To implement an interface"
+                },
+                {
+                    "question": "What is the correct way to write an 'if-else' statement in Java?",
+                    "options": [
+                        "if (condition) { /* code */ } else { /* code */ }",
+                        "for (int i = 0; i < n; i++) { /* code */ }",
+                        "while (condition) { /* code */ }",
+                        "do { /* code */ } while (condition);"
+                    ],
+                    "answer": "if (condition) { /* code */ } else { /* code */ }"
+                },
+                {
+                    "question": "What is the output of the following Java code?\n\npublic class Example {\n  public static void main(String[] args) {\n    int x = 7;\n    int result = (x % 2 == 0) ? 1 : 0;\n    System.out.println(result);\n  }\n}",
+                    "options": [
+                        "1",
+                        "0",
+                        "true",
+                        "false"
+                    ],
+                    "answer": "0"
+                }
+            ]
+        },
+        {
+            "level_7": [
+                {
+                    "question": "What is the output of the following Java code?\n\npublic class Example {\n  public static void main(String[] args) {\n    int x = 2;\n    int y = 3;\n    int z = x * y + x++;\n    System.out.println(z);\n  }\n}",
+                    "options": [
+                        "5",
+                        "8",
+                        "10",
+                        "11"
+                    ],
+                    "answer": "8"
+                },
+                {
+                    "question": "Which Java keyword is used to handle exceptions in a method?",
+                    "options": [
+                        "exception",
+                        "try",
+                        "throw",
+                        "catch"
+                    ],
+                    "answer": "try"
+                },
+                {
+                    "question": "What is the correct syntax to declare a multi-dimensional array in Java?",
+                    "options": [
+                        "int[][] arr = new int[3][3];",
+                        "int[] arr = new int[3];",
+                        "int[] arr[] = new int[3][3];",
+                        "int arr[][] = new int[3][3];"
+                    ],
+                    "answer": "int[][] arr = new int[3][3];"
+                },
+                {
+                    "question": "What is the purpose of the 'throws' keyword in Java?",
+                    "options": [
+                        "To handle exceptions",
+                        "To specify the exception type",
+                        "To declare a method",
+                        "To ignore exceptions"
+                    ],
+                    "answer": "To specify the exception type"
+                },
+                {
+                    "question": "Which Java keyword is used to refer to the current object within a class?",
+                    "options": [
+                        "this",
+                        "super",
+                        "new",
+                        "class"
+                    ],
+                    "answer": "this"
+                },
+                {
+                    "question": "What is the output of the following Java code?\n\npublic class Example {\n  public static void main(String[] args) {\n    int x = 5;\n    x += 3;\n    System.out.println(x);\n  }\n}",
+                    "options": [
+                        "5",
+                        "3",
+                        "8",
+                        "Compilation error"
+                    ],
+                    "answer": "8"
+                },
+                {
+                    "question": "Which Java collection class provides a dynamic array implementation?",
+                    "options": [
+                        "ArrayList",
+                        "HashSet",
+                        "HashMap",
+                        "LinkedList"
+                    ],
+                    "answer": "ArrayList"
+                },
+                {
+                    "question": "What is the purpose of the 'super' keyword in Java?",
+                    "options": [
+                        "To declare a variable",
+                        "To define a method",
+                        "To inherit a class",
+                        "To refer to the superclass"
+                    ],
+                    "answer": "To refer to the superclass"
+                },
+                {
+                    "question": "What is the correct way to write a 'while' loop in Java?",
+                    "options": [
+                        "while (condition) { /* code */ }",
+                        "for (int i = 0; i < n; i++) { /* code */ }",
+                        "do { /* code */ } while (condition);",
+                        "if (condition) { /* code */ } else { /* code */ }"
+                    ],
+                    "answer": "while (condition) { /* code */ }"
+                },
+                {
+                    "question": "What is the output of the following Java code?\n\npublic class Example {\n  public static void main(String[] args) {\n    int x = 8;\n    int result = (x / 3 == 2) ? 1 : 0;\n    System.out.println(result);\n  }\n}",
+                    "options": [
+                        "1",
+                        "0",
+                        "true",
+                        "false"
+                    ],
+                    "answer": "1"
+                }
+            ]
+        },
+        {
+            "level_8": [
+                {
+                    "question": "What is the output of the following Java code?\n\npublic class Example {\n  public static void main(String[] args) {\n    int x = 10;\n    int y = 5;\n    int z = x-- + --y;\n    System.out.println(z);\n  }\n}",
+                    "options": [
+                        "13",
+                        "14",
+                        "15",
+                        "16"
+                    ],
+                    "answer": "14"
+                },
+                {
+                    "question": "Which Java keyword is used to handle the exceptions that are not caught by a catch block?",
+                    "options": [
+                        "exception",
+                        "try",
+                        "throw",
+                        "finally"
+                    ],
+                    "answer": "finally"
+                },
+                {
+                    "question": "What is the correct syntax to declare a generic class in Java?",
+                    "options": [
+                        "class Example<T> { /* code */ }",
+                        "class Example { /* code */ }",
+                        "class<T> Example { /* code */ }",
+                        "generic class Example { /* code */ }"
+                    ],
+                    "answer": "class Example<T> { /* code */ }"
+                },
+                {
+                    "question": "What is the purpose of the 'throw' keyword in Java?",
+                    "options": [
+                        "To handle exceptions",
+                        "To specify the exception type",
+                        "To throw an exception",
+                        "To ignore exceptions"
+                    ],
+                    "answer": "To throw an exception"
+                },
+                {
+                    "question": "Which Java keyword is used to refer to the superclass within a subclass?",
+                    "options": [
+                        "this",
+                        "super",
+                        "new",
+                        "class"
+                    ],
+                    "answer": "super"
+                },
+                {
+                    "question": "What is the output of the following Java code?\n\npublic class Example {\n  public static void main(String[] args) {\n    int x = 7;\n    int result = (x % 2 == 0) ? 1 : 0;\n    System.out.println(result);\n  }\n}",
+                    "options": [
+                        "1",
+                        "0",
+                        "true",
+                        "false"
+                    ],
+                    "answer": "0"
+                },
+                {
+                    "question": "Which Java collection class provides a set of unique elements?",
+                    "options": [
+                        "ArrayList",
+                        "HashSet",
+                        "HashMap",
+                        "LinkedList"
+                    ],
+                    "answer": "HashSet"
+                },
+                {
+                    "question": "What is the purpose of the 'abstract' keyword in Java?",
+                    "options": [
+                        "To declare a variable",
+                        "To define a method",
+                        "To inherit a class",
+                        "To create an abstract class or method"
+                    ],
+                    "answer": "To create an abstract class or method"
+                },
+                {
+                    "question": "What is the correct way to write a 'for' loop in Java?",
+                    "options": [
+                        "for (int i = 0; i < n; i++) { /* code */ }",
+                        "while (condition) { /* code */ }",
+                        "do { /* code */ } while (condition);",
+                        "if (condition) { /* code */ } else { /* code */ }"
+                    ],
+                    "answer": "for (int i = 0; i < n; i++) { /* code */ }"
+                },
+                {
+                    "question": "What is the output of the following Java code?\n\npublic class Example {\n  public static void main(String[] args) {\n    double x = Math.pow(2, 3);\n    System.out.println(x);\n  }\n}",
+                    "options": [
+                        "2",
+                        "3",
+                        "8",
+                        "Compilation error"
+                    ],
+                    "answer": "8"
+                }
+            ]
+        },
+        {
+            "level_9": [
+                {
+                    "question": "What is the output of the following Java code?\n\npublic class Example {\n  public static void main(String[] args) {\n    String str = \"Java\";\n    str.concat(\" Programming\");\n    System.out.println(str);\n  }\n}",
+                    "options": [
+                        "Java",
+                        "Programming",
+                        "Java Programming",
+                        "Compilation error"
+                    ],
+                    "answer": "Java"
+                },
+                {
+                    "question": "Which Java keyword is used to handle a specific type of exception?",
+                    "options": [
+                        "exception",
+                        "try",
+                        "throw",
+                        "catch"
+                    ],
+                    "answer": "catch"
+                },
+                {
+                    "question": "What is the correct syntax to declare a generic method in Java?",
+                    "options": [
+                        "public <T> void methodName(T arg) { /* code */ }",
+                        "public void methodName<T>(T arg) { /* code */ }",
+                        "public void methodName(T arg) { /* code */ }",
+                        "public T methodName(T arg) { /* code */ }"
+                    ],
+                    "answer": "public <T> void methodName(T arg) { /* code */ }"
+                },
+                {
+                    "question": "What is the purpose of the 'finally' block in Java exception handling?",
+                    "options": [
+                        "To handle exceptions",
+                        "To specify the exception type",
+                        "To clean up resources",
+                        "To ignore exceptions"
+                    ],
+                    "answer": "To clean up resources"
+                },
+                {
+                    "question": "Which Java keyword is used to prevent a method or variable from being overridden?",
+                    "options": [
+                        "this",
+                        "super",
+                        "new",
+                        "final"
+                    ],
+                    "answer": "final"
+                },
+                {
+                    "question": "What is the output of the following Java code?\n\npublic class Example {\n  public static void main(String[] args) {\n    int x = 5;\n    x -= 2;\n    System.out.println(x);\n  }\n}",
+                    "options": [
+                        "5",
+                        "3",
+                        "2",
+                        "Compilation error"
+                    ],
+                    "answer": "3"
+                },
+                {
+                    "question": "Which Java collection class provides key-value pairs?",
+                    "options": [
+                        "ArrayList",
+                        "HashSet",
+                        "HashMap",
+                        "LinkedList"
+                    ],
+                    "answer": "HashMap"
+                },
+                {
+                    "question": "What is the purpose of the 'static' keyword in Java?",
+                    "options": [
+                        "To declare a variable",
+                        "To define a method",
+                        "To inherit a class",
+                        "To create a static variable or method"
+                    ],
+                    "answer": "To create a static variable or method"
+                },
+                {
+                    "question": "What is the correct way to write a 'do-while' loop in Java?",
+                    "options": [
+                        "do { /* code */ } while (condition);",
+                        "while (condition) { /* code */ }",
+                        "for (int i = 0; i < n; i++) { /* code */ }",
+                        "if (condition) { /* code */ } else { /* code */ }"
+                    ],
+                    "answer": "do { /* code */ } while (condition);"
+                },
+                {
+                    "question": "What is the output of the following Java code?\n\npublic class Example {\n  public static void main(String[] args) {\n    int x = 8;\n    int result = (x / 3 == 2) ? 1 : 0;\n    System.out.println(result);\n  }\n}",
+                    "options": [
+                        "1",
+                        "0",
+                        "true",
+                        "false"
+                    ],
+                    "answer": "1"
+                }
+            ]
+        },
+        {
+            "level_10": [
+                {
+                    "question": "What is the output of the following Java code?\n\npublic class Example {\n  public static void main(String[] args) {\n    int x = 10;\n    int y = 5;\n    int z = (x > y) ? x : y;\n    System.out.println(z);\n  }\n}",
+                    "options": [
+                        "10",
+                        "5",
+                        "true",
+                        "false"
+                    ],
+                    "answer": "10"
+                },
+                {
+                    "question": "Which Java keyword is used to declare a class that cannot be instantiated?",
+                    "options": [
+                        "class",
+                        "abstract",
+                        "interface",
+                        "final"
+                    ],
+                    "answer": "abstract"
+                },
+                {
+                    "question": "What is the correct syntax to declare a lambda expression in Java?",
+                    "options": [
+                        "(int x, int y) -> x + y",
+                        "int sum = (x, y) -> x + y;",
+                        "int sum = (x, y) => x + y;",
+                        "(x, y) => { return x + y; }"
+                    ],
+                    "answer": "(int x, int y) -> x + y"
+                },
+                {
+                    "question": "What is the purpose of the 'catch' block in Java exception handling?",
+                    "options": [
+                        "To handle exceptions",
+                        "To specify the exception type",
+                        "To throw an exception",
+                        "To ignore exceptions"
+                    ],
+                    "answer": "To handle exceptions"
+                },
+                {
+                    "question": "Which Java keyword is used to refer to the current class within a class?",
+                    "options": [
+                        "this",
+                        "super",
+                        "new",
+                        "class"
+                    ],
+                    "answer": "this"
+                },
+                {
+                    "question": "What is the output of the following Java code?\n\npublic class Example {\n  public static void main(String[] args) {\n    int x = 7;\n    int result = (x % 2 == 0) ? 1 : 0;\n    System.out.println(result);\n  }\n}",
+                    "options": [
+                        "1",
+                        "0",
+                        "true",
+                        "false"
+                    ],
+                    "answer": "0"
+                },
+                {
+                    "question": "Which Java collection class maintains the insertion order of elements?",
+                    "options": [
+                        "ArrayList",
+                        "HashSet",
+                        "LinkedHashSet",
+                        "LinkedList"
+                    ],
+                    "answer": "LinkedHashSet"
+                },
+                {
+                    "question": "What is the purpose of the 'interface' keyword in Java?",
+                    "options": [
+                        "To declare a variable",
+                        "To define a method",
+                        "To inherit a class",
+                        "To declare an interface"
+                    ],
+                    "answer": "To declare an interface"
+                },
+                {
+                    "question": "What is the correct way to write a 'while' loop in Java?",
+                    "options": [
+                        "while (condition) { /* code */ }",
+                        "for (int i = 0; i < n; i++) { /* code */ }",
+                        "do { /* code */ } while (condition);",
+                        "if (condition) { /* code */ } else { /* code */ }"
+                    ],
+                    "answer": "while (condition) { /* code */ }"
+                },
+                {
+                    "question": "What is the output of the following Java code?\n\npublic class Example {\n  public static void main(String[] args) {\n    double x = Math.pow(2, 3);\n    System.out.println(x);\n  }\n}",
+                    "options": [
+                        "2",
+                        "3",
+                        "8",
+                        "Compilation error"
+                    ],
+                    "answer": "8"
+                }
+            ]
+        }
+    ],
+
+    "Php_Quiz": [
+        {
+            "nothing": []
+        },
+        {
+            "level_1": [
+                {
+                    "question": "What is the output of the following PHP code?\n\n<?php\n  $x = 10;\n  $y = 5;\n  $z = ($x > $y) ? $x : $y;\n  echo $z;\n?>",
+                    "options": [
+                        "10",
+                        "5",
+                        "true",
+                        "false"
+                    ],
+                    "answer": "10"
+                },
+                {
+                    "question": "Which PHP keyword is used to declare a class that cannot be instantiated?",
+                    "options": [
+                        "class",
+                        "abstract",
+                        "interface",
+                        "final"
+                    ],
+                    "answer": "abstract"
+                },
+                {
+                    "question": "What is the correct syntax to declare a variable in PHP?",
+                    "options": [
+                        "var $variable_name;",
+                        "$variable_name;",
+                        "variable_name;",
+                        "@$variable_name;"
+                    ],
+                    "answer": "$variable_name;"
+                },
+                {
+                    "question": "What is the purpose of the 'try' block in PHP exception handling?",
+                    "options": [
+                        "To handle exceptions",
+                        "To specify the exception type",
+                        "To throw an exception",
+                        "To ignore exceptions"
+                    ],
+                    "answer": "To handle exceptions"
+                },
+                {
+                    "question": "Which PHP keyword is used to refer to the current class within a class?",
+                    "options": [
+                        "$this",
+                        "self",
+                        "new",
+                        "class"
+                    ],
+                    "answer": "$this"
+                },
+                {
+                    "question": "What is the output of the following PHP code?\n\n<?php\n  $x = 7;\n  $result = ($x % 2 == 0) ? 1 : 0;\n  echo $result;\n?>",
+                    "options": [
+                        "1",
+                        "0",
+                        "true",
+                        "false"
+                    ],
+                    "answer": "0"
+                },
+                {
+                    "question": "Which PHP array function is used to remove the last element from an array?",
+                    "options": [
+                        "array_push()",
+                        "array_pop()",
+                        "array_shift()",
+                        "array_unshift()"
+                    ],
+                    "answer": "array_pop()"
+                },
+                {
+                    "question": "What is the purpose of the 'interface' keyword in PHP?",
+                    "options": [
+                        "To declare a variable",
+                        "To define a method",
+                        "To inherit a class",
+                        "To declare an interface"
+                    ],
+                    "answer": "To declare an interface"
+                },
+                {
+                    "question": "What is the correct way to write a 'while' loop in PHP?",
+                    "options": [
+                        "while (condition) { /* code */ }",
+                        "for ($i = 0; $i < $n; $i++) { /* code */ }",
+                        "do { /* code */ } while (condition);",
+                        "if (condition) { /* code */ } else { /* code */ }"
+                    ],
+                    "answer": "while (condition) { /* code */ }"
+                },
+                {
+                    "question": "What is the output of the following PHP code?\n\n<?php\n  $x = pow(2, 3);\n  echo $x;\n?>",
+                    "options": [
+                        "2",
+                        "3",
+                        "8",
+                        "Compilation error"
+                    ],
+                    "answer": "8"
+                }
+            ]
+        },
+        {
+            "level_2": [
+                {
+                    "question": "What is the output of the following PHP code?\n\n<?php\n  $x = 5;\n  echo ++$x;\n?>",
+                    "options": [
+                        "4",
+                        "5",
+                        "6",
+                        "Compilation error"
+                    ],
+                    "answer": "6"
+                },
+                {
+                    "question": "Which PHP keyword is used to include the contents of one PHP file into another PHP file?",
+                    "options": [
+                        "require",
+                        "import",
+                        "include",
+                        "extend"
+                    ],
+                    "answer": "include"
+                },
+                {
+                    "question": "What is the correct syntax to declare a constant in PHP?",
+                    "options": [
+                        "define('CONSTANT_NAME', value);",
+                        "constant CONSTANT_NAME = value;",
+                        "const CONSTANT_NAME = value;",
+                        "$CONSTANT_NAME = value;"
+                    ],
+                    "answer": "const CONSTANT_NAME = value;"
+                },
+                {
+                    "question": "What is the purpose of the 'break' statement in PHP?",
+                    "options": [
+                        "To exit the current loop",
+                        "To skip the current iteration",
+                        "To continue to the next iteration",
+                        "To throw an exception"
+                    ],
+                    "answer": "To exit the current loop"
+                },
+                {
+                    "question": "Which PHP function is used to check if a file exists?",
+                    "options": [
+                        "file_exists()",
+                        "is_file()",
+                        "file_get_contents()",
+                        "file_put_contents()"
+                    ],
+                    "answer": "file_exists()"
+                },
+                {
+                    "question": "What is the output of the following PHP code?\n\n<?php\n  $x = 10;\n  $y = '10';\n  if ($x === $y) {\n    echo 'Equal';\n  } else {\n    echo 'Not equal';\n  }\n?>",
+                    "options": [
+                        "Equal",
+                        "Not equal",
+                        "True",
+                        "False"
+                    ],
+                    "answer": "Not equal"
+                },
+                {
+                    "question": "Which PHP array function is used to sort an array in ascending order?",
+                    "options": [
+                        "array_push()",
+                        "array_pop()",
+                        "sort()",
+                        "array_flip()"
+                    ],
+                    "answer": "sort()"
+                },
+                {
+                    "question": "What is the purpose of the 'namespace' keyword in PHP?",
+                    "options": [
+                        "To declare a variable",
+                        "To define a method",
+                        "To define a class",
+                        "To declare a namespace"
+                    ],
+                    "answer": "To declare a namespace"
+                },
+                {
+                    "question": "What is the correct way to write a 'for' loop in PHP?",
+                    "options": [
+                        "for ($i = 0; $i < $n; $i++) { /* code */ }",
+                        "while (condition) { /* code */ }",
+                        "do { /* code */ } while (condition);",
+                        "if (condition) { /* code */ } else { /* code */ }"
+                    ],
+                    "answer": "for ($i = 0; $i < $n; $i++) { /* code */ }"
+                },
+                {
+                    "question": "What is the output of the following PHP code?\n\n<?php\n  $x = 10;\n  $y = 20;\n  echo ($x > $y) ? 'x is greater' : 'y is greater';\n?>",
+                    "options": [
+                        "x is greater",
+                        "y is greater",
+                        "10",
+                        "20"
+                    ],
+                    "answer": "y is greater"
+                }
+            ]
+        },
+
+        {
+            "level_3": [
+                {
+                    "question": "What is the output of the following PHP code?\n\n<?php\n  $str = 'Hello World';\n  echo strlen($str);\n?>",
+                    "options": [
+                        "10",
+                        "11",
+                        "5",
+                        "Compilation error"
+                    ],
+                    "answer": "11"
+                },
+                {
+                    "question": "Which PHP function is used to retrieve the length of an array?",
+                    "options": [
+                        "count()",
+                        "length()",
+                        "sizeof()",
+                        "array_length()"
+                    ],
+                    "answer": "count()"
+                },
+                {
+                    "question": "What is the correct syntax to declare a variable as global in PHP?",
+                    "options": [
+                        "$var = global;",
+                        "global $var;",
+                        "$var = global();",
+                        "global() = $var;"
+                    ],
+                    "answer": "global $var;"
+                },
+                {
+                    "question": "What is the purpose of the 'continue' statement in PHP?",
+                    "options": [
+                        "To exit the current loop",
+                        "To skip the current iteration",
+                        "To terminate the script execution",
+                        "To throw an exception"
+                    ],
+                    "answer": "To skip the current iteration"
+                },
+                {
+                    "question": "Which PHP function is used to read the contents of a file into a string?",
+                    "options": [
+                        "file_get_contents()",
+                        "file_put_contents()",
+                        "fopen()",
+                        "fclose()"
+                    ],
+                    "answer": "file_get_contents()"
+                },
+                {
+                    "question": "What is the output of the following PHP code?\n\n<?php\n  $x = 10;\n  $y = '10';\n  if ($x == $y) {\n    echo 'Equal';\n  } else {\n    echo 'Not equal';\n  }\n?>",
+                    "options": [
+                        "Equal",
+                        "Not equal",
+                        "True",
+                        "False"
+                    ],
+                    "answer": "Equal"
+                },
+                {
+                    "question": "Which PHP array function is used to remove duplicate values from an array?",
+                    "options": [
+                        "array_push()",
+                        "array_pop()",
+                        "array_unique()",
+                        "array_reverse()"
+                    ],
+                    "answer": "array_unique()"
+                },
+                {
+                    "question": "What is the purpose of the 'use' keyword in PHP anonymous functions (closures)?",
+                    "options": [
+                        "To include a file",
+                        "To define a trait",
+                        "To import a namespace",
+                        "To access variables from the parent scope"
+                    ],
+                    "answer": "To access variables from the parent scope"
+                },
+                {
+                    "question": "What is the correct way to write a 'foreach' loop in PHP?",
+                    "options": [
+                        "foreach ($array as $value) { /* code */ }",
+                        "while (condition) { /* code */ }",
+                        "do { /* code */ } while (condition);",
+                        "if (condition) { /* code */ } else { /* code */ }"
+                    ],
+                    "answer": "foreach ($array as $value) { /* code */ }"
+                },
+                {
+                    "question": "What is the output of the following PHP code?\n\n<?php\n  $x = '10';\n  $y = 10;\n  echo ($x === $y) ? 'Equal' : 'Not equal';\n?>",
+                    "options": [
+                        "Equal",
+                        "Not equal",
+                        "True",
+                        "False"
+                    ],
+                    "answer": "Not equal"
+                }
+            ]
+        },
+        {
+            "level_4": [
+                {
+                    "question": "What is the output of the following PHP code?\n\n<?php\n  $array = [1, 2, 3, 4, 5];\n  unset($array[2]);\n  echo count($array);\n?>",
+                    "options": [
+                        "4",
+                        "5",
+                        "3",
+                        "Compilation error"
+                    ],
+                    "answer": "4"
+                },
+                {
+                    "question": "Which PHP function is used to convert a string to all lowercase?",
+                    "options": [
+                        "strtolower()",
+                        "strtoupper()",
+                        "ucfirst()",
+                        "lcfirst()"
+                    ],
+                    "answer": "strtolower()"
+                },
+                {
+                    "question": "What is the correct syntax to define a function in PHP?",
+                    "options": [
+                        "def function_name() { /* code */ }",
+                        "function function_name() { /* code */ }",
+                        "function_name() = function() { /* code */ };",
+                        "func function_name() { /* code */ }"
+                    ],
+                    "answer": "function function_name() { /* code */ }"
+                },
+                {
+                    "question": "What is the purpose of the 'exit' statement in PHP?",
+                    "options": [
+                        "To exit the current loop",
+                        "To skip the current iteration",
+                        "To terminate the script execution",
+                        "To throw an exception"
+                    ],
+                    "answer": "To terminate the script execution"
+                },
+                {
+                    "question": "Which PHP function is used to write a string to a file?",
+                    "options": [
+                        "file_get_contents()",
+                        "file_put_contents()",
+                        "fopen()",
+                        "fclose()"
+                    ],
+                    "answer": "file_put_contents()"
+                },
+                {
+                    "question": "What is the output of the following PHP code?\n\n<?php\n  $x = 10;\n  $y = '10';\n  if ($x === $y) {\n    echo 'Equal';\n  } elseif ($x == $y) {\n    echo 'Loose equal';\n  } else {\n    echo 'Not equal';\n  }\n?>",
+                    "options": [
+                        "Equal",
+                        "Loose equal",
+                        "Not equal",
+                        "True"
+                    ],
+                    "answer": "Loose equal"
+                },
+                {
+                    "question": "Which PHP array function is used to merge two or more arrays into a single array?",
+                    "options": [
+                        "array_push()",
+                        "array_pop()",
+                        "array_merge()",
+                        "array_combine()"
+                    ],
+                    "answer": "array_merge()"
+                },
+                {
+                    "question": "What is the purpose of the 'yield' keyword in PHP?",
+                    "options": [
+                        "To define a generator",
+                        "To define a closure",
+                        "To define a class",
+                        "To define a namespace"
+                    ],
+                    "answer": "To define a generator"
+                },
+                {
+                    "question": "What is the correct way to check if a key exists in an associative array in PHP?",
+                    "options": [
+                        "isset($array[key])",
+                        "array_key_exists(key, $array)",
+                        "in_array(key, $array)",
+                        "array_search(key, $array)"
+                    ],
+                    "answer": "array_key_exists(key, $array)"
+                },
+                {
+                    "question": "What is the output of the following PHP code?\n\n<?php\n  $x = '10';\n  $y = 10;\n  echo ($x == $y) ? 'Equal' : 'Not equal';\n?>",
+                    "options": [
+                        "Equal",
+                        "Not equal",
+                        "True",
+                        "False"
+                    ],
+                    "answer": "Equal"
+                }
+            ]
+        },
+        {
+            "level_5": [
+                {
+                    "question": "What is the output of the following PHP code?\n\n<?php\n  $str = 'Hello World';\n  echo strtoupper($str);\n?>",
+                    "options": [
+                        "HELLO WORLD",
+                        "hello world",
+                        "Hello World",
+                        "Compilation error"
+                    ],
+                    "answer": "HELLO WORLD"
+                },
+                {
+                    "question": "Which PHP function is used to convert a string to all uppercase?",
+                    "options": [
+                        "strtolower()",
+                        "strtoupper()",
+                        "ucfirst()",
+                        "lcfirst()"
+                    ],
+                    "answer": "strtoupper()"
+                },
+                {
+                    "question": "What is the correct syntax to define a class in PHP?",
+                    "options": [
+                        "class ClassName() { /* code */ }",
+                        "def ClassName() { /* code */ }",
+                        "class ClassName { /* code */ }",
+                        "function ClassName() { /* code */ }"
+                    ],
+                    "answer": "class ClassName { /* code */ }"
+                },
+                {
+                    "question": "What is the purpose of the 'die' statement in PHP?",
+                    "options": [
+                        "To exit the current loop",
+                        "To skip the current iteration",
+                        "To terminate the script execution",
+                        "To throw an exception"
+                    ],
+                    "answer": "To terminate the script execution"
+                },
+                {
+                    "question": "Which PHP function is used to read a file line by line?",
+                    "options": [
+                        "file_get_contents()",
+                        "file_put_contents()",
+                        "fopen()",
+                        "fgets()"
+                    ],
+                    "answer": "fgets()"
+                },
+                {
+                    "question": "What is the output of the following PHP code?\n\n<?php\n  $x = 10;\n  $y = '10';\n  if ($x === $y) {\n    echo 'Equal';\n  } elseif ($x == $y) {\n    echo 'Loose equal';\n  } else {\n    echo 'Not equal';\n  }\n?>",
+                    "options": [
+                        "Equal",
+                        "Loose equal",
+                        "Not equal",
+                        "True"
+                    ],
+                    "answer": "Loose equal"
+                },
+                {
+                    "question": "Which PHP array function is used to extract a slice of an array?",
+                    "options": [
+                        "array_push()",
+                        "array_pop()",
+                        "array_slice()",
+                        "array_chunk()"
+                    ],
+                    "answer": "array_slice()"
+                },
+                {
+                    "question": "What is the purpose of the 'yield from' statement in PHP?",
+                    "options": [
+                        "To define a generator",
+                        "To yield multiple values from a generator",
+                        "To define a closure",
+                        "To define a namespace"
+                    ],
+                    "answer": "To yield multiple values from a generator"
+                },
+                {
+                    "question": "What is the correct way to remove an element from an array in PHP?",
+                    "options": [
+                        "unset($array[index])",
+                        "array_remove($array, index)",
+                        "array_delete($array, index)",
+                        "array_splice($array, index, 1)"
+                    ],
+                    "answer": "unset($array[index])"
+                },
+                {
+                    "question": "What is the output of the following PHP code?\n\n<?php\n  $x = '10';\n  $y = 10;\n  echo ($x === $y) ? 'Equal' : 'Not equal';\n?>",
+                    "options": [
+                        "Equal",
+                        "Not equal",
+                        "True",
+                        "False"
+                    ],
+                    "answer": "Not equal"
+                }
+            ]
+        },
+        {
+            "level_6": [
+                {
+                    "question": "What is the output of the following PHP code?\n\n<?php\n  $str = 'Hello World';\n  echo substr($str, 0, 5);\n?>",
+                    "options": [
+                        "Hello",
+                        "World",
+                        "Hello World",
+                        "Compilation error"
+                    ],
+                    "answer": "Hello"
+                },
+                {
+                    "question": "Which PHP function is used to get the current date and time?",
+                    "options": [
+                        "time()",
+                        "date()",
+                        "now()",
+                        "current_time()"
+                    ],
+                    "answer": "date()"
+                },
+                {
+                    "question": "What is the correct syntax to define a constant in PHP?",
+                    "options": [
+                        "define('CONSTANT_NAME', value);",
+                        "constant CONSTANT_NAME = value;",
+                        "$CONSTANT_NAME = value;",
+                        "const CONSTANT_NAME = value;"
+                    ],
+                    "answer": "define('CONSTANT_NAME', value);"
+                },
+                {
+                    "question": "What is the purpose of the 'break' statement in PHP?",
+                    "options": [
+                        "To exit the current loop",
+                        "To skip the current iteration",
+                        "To terminate the script execution",
+                        "To throw an exception"
+                    ],
+                    "answer": "To exit the current loop"
+                },
+                {
+                    "question": "Which PHP function is used to check if a file or directory exists?",
+                    "options": [
+                        "file_exists()",
+                        "directory_exists()",
+                        "is_file()",
+                        "is_dir()"
+                    ],
+                    "answer": "file_exists()"
+                },
+                {
+                    "question": "What is the output of the following PHP code?\n\n<?php\n  $x = 10;\n  $y = '10';\n  if ($x == $y) {\n    echo 'Equal';\n  } else {\n    echo 'Not equal';\n  }\n?>",
+                    "options": [
+                        "Equal",
+                        "Not equal",
+                        "True",
+                        "False"
+                    ],
+                    "answer": "Equal"
+                },
+                {
+                    "question": "Which PHP array function is used to sort an array in ascending order?",
+                    "options": [
+                        "array_push()",
+                        "array_pop()",
+                        "array_sort()",
+                        "sort()"
+                    ],
+                    "answer": "sort()"
+                },
+                {
+                    "question": "What is the purpose of the 'use' keyword in PHP anonymous functions (closures)?",
+                    "options": [
+                        "To include a file",
+                        "To define a trait",
+                        "To import a namespace",
+                        "To access variables from the parent scope"
+                    ],
+                    "answer": "To access variables from the parent scope"
+                },
+                {
+                    "question": "What is the correct way to write an if-else statement in PHP?",
+                    "options": [
+                        "if { /* code */ } else { /* code */ }",
+                        "if () { /* code */ } else () { /* code */ }",
+                        "if () { /* code */ } else { /* code */ }",
+                        "if { /* code */ } else () { /* code */ }"
+                    ],
+                    "answer": "if () { /* code */ } else { /* code */ }"
+                },
+                {
+                    "question": "What is the output of the following PHP code?\n\n<?php\n  $x = '10';\n  $y = 10;\n  echo ($x === $y) ? 'Equal' : 'Not equal';\n?>",
+                    "options": [
+                        "Equal",
+                        "Not equal",
+                        "True",
+                        "False"
+                    ],
+                    "answer": "Not equal"
+                }
+            ]
+        },
+        {
+            "level_7": [
+                {
+                    "question": "What is the output of the following PHP code?\n\n<?php\n  $str = 'Hello World';\n  echo strlen($str);\n?>",
+                    "options": [
+                        "11",
+                        "10",
+                        "12",
+                        "Compilation error"
+                    ],
+                    "answer": "11"
+                },
+                {
+                    "question": "Which PHP function is used to get the length of an array?",
+                    "options": [
+                        "array_length()",
+                        "count()",
+                        "sizeof()",
+                        "length()"
+                    ],
+                    "answer": "count()"
+                },
+                {
+                    "question": "What is the correct syntax to declare a variable in PHP?",
+                    "options": [
+                        "$var_name = value;",
+                        "var var_name = value;",
+                        "variable var_name = value;",
+                        "$var_name == value;"
+                    ],
+                    "answer": "$var_name = value;"
+                },
+                {
+                    "question": "What is the purpose of the 'continue' statement in PHP?",
+                    "options": [
+                        "To exit the current loop",
+                        "To skip the current iteration",
+                        "To terminate the script execution",
+                        "To throw an exception"
+                    ],
+                    "answer": "To skip the current iteration"
+                },
+                {
+                    "question": "Which PHP function is used to check if a variable is an array?",
+                    "options": [
+                        "is_array()",
+                        "check_array()",
+                        "array_check()",
+                        "isArray()"
+                    ],
+                    "answer": "is_array()"
+                },
+                {
+                    "question": "What is the output of the following PHP code?\n\n<?php\n  $x = 10;\n  $y = '10';\n  if ($x === $y) {\n    echo 'Equal';\n  } else {\n    echo 'Not equal';\n  }\n?>",
+                    "options": [
+                        "Equal",
+                        "Not equal",
+                        "True",
+                        "False"
+                    ],
+                    "answer": "Not equal"
+                },
+                {
+                    "question": "Which PHP array function is used to sort an array in descending order?",
+                    "options": [
+                        "array_push()",
+                        "array_pop()",
+                        "array_sort()",
+                        "rsort()"
+                    ],
+                    "answer": "rsort()"
+                },
+                {
+                    "question": "What is the purpose of the 'final' keyword in PHP?",
+                    "options": [
+                        "To indicate that a class cannot be inherited",
+                        "To indicate that a method cannot be overridden",
+                        "To indicate that a variable cannot be modified",
+                        "To indicate that a constant cannot be redefined"
+                    ],
+                    "answer": "To indicate that a class cannot be inherited"
+                },
+                {
+                    "question": "What is the correct way to write a for loop in PHP?",
+                    "options": [
+                        "for (int $i = 0; $i < $n; $i++) { /* code */ }",
+                        "for ($i = 0; $i < $n; $i++) { /* code */ }",
+                        "for ($i = 0; $i <= $n; $i++) { /* code */ }",
+                        "for ($i = 1; $i <= $n; $i++) { /* code */ }"
+                    ],
+                    "answer": "for ($i = 0; $i < $n; $i++) { /* code */ }"
+                },
+                {
+                    "question": "What is the output of the following PHP code?\n\n<?php\n  $x = '10';\n  $y = 10;\n  echo ($x == $y) ? 'Equal' : 'Not equal';\n?>",
+                    "options": [
+                        "Equal",
+                        "Not equal",
+                        "True",
+                        "False"
+                    ],
+                    "answer": "Equal"
+                }
+            ]
+        },
+        {
+            "level_8": [
+                {
+                    "question": "What is the output of the following PHP code?\n\n<?php\n  $str = 'Hello World';\n  echo strtolower($str);\n?>",
+                    "options": [
+                        "hello world",
+                        "HELLO WORLD",
+                        "Hello World",
+                        "Compilation error"
+                    ],
+                    "answer": "hello world"
+                },
+                {
+                    "question": "Which PHP function is used to get the current timestamp?",
+                    "options": [
+                        "time()",
+                        "date()",
+                        "now()",
+                        "current_timestamp()"
+                    ],
+                    "answer": "time()"
+                },
+                {
+                    "question": "What is the correct syntax to define a function in PHP?",
+                    "options": [
+                        "def function_name() { /* code */ }",
+                        "function function_name() { /* code */ }",
+                        "function_name() { /* code */ }",
+                        "function() { /* code */ }"
+                    ],
+                    "answer": "function function_name() { /* code */ }"
+                },
+                {
+                    "question": "What is the purpose of the 'exit' statement in PHP?",
+                    "options": [
+                        "To exit the current loop",
+                        "To skip the current iteration",
+                        "To terminate the script execution",
+                        "To throw an exception"
+                    ],
+                    "answer": "To terminate the script execution"
+                },
+                {
+                    "question": "Which PHP function is used to check if a variable is empty?",
+                    "options": [
+                        "is_empty()",
+                        "empty()",
+                        "is_null()",
+                        "isNull()"
+                    ],
+                    "answer": "empty()"
+                },
+                {
+                    "question": "What is the output of the following PHP code?\n\n<?php\n  $x = 10;\n  $y = '10';\n  if ($x === $y) {\n    echo 'Equal';\n  } else {\n    echo 'Not equal';\n  }\n?>",
+                    "options": [
+                        "Equal",
+                        "Not equal",
+                        "True",
+                        "False"
+                    ],
+                    "answer": "Not equal"
+                },
+                {
+                    "question": "Which PHP array function is used to remove duplicate values from an array?",
+                    "options": [
+                        "array_push()",
+                        "array_pop()",
+                        "array_unique()",
+                        "unique_array()"
+                    ],
+                    "answer": "array_unique()"
+                },
+                {
+                    "question": "What is the purpose of the 'namespace' keyword in PHP?",
+                    "options": [
+                        "To include a file",
+                        "To define a class",
+                        "To import a namespace",
+                        "To define a constant"
+                    ],
+                    "answer": "To import a namespace"
+                },
+                {
+                    "question": "What is the correct way to write a while loop in PHP?",
+                    "options": [
+                        "while (condition) { /* code */ }",
+                        "for ($i = 0; $i < $n; $i++) { /* code */ }",
+                        "while () { /* code */ }",
+                        "while (condition; increment) { /* code */ }"
+                    ],
+                    "answer": "while (condition) { /* code */ }"
+                },
+                {
+                    "question": "What is the output of the following PHP code?\n\n<?php\n  $x = '10';\n  $y = 10;\n  echo ($x === $y) ? 'Equal' : 'Not equal';\n?>",
+                    "options": [
+                        "Equal",
+                        "Not equal",
+                        "True",
+                        "False"
+                    ],
+                    "answer": "Not equal"
+                }
+            ]
+        },
+        {
+            "level_9": [
+                {
+                    "question": "What is the output of the following PHP code?\n\n<?php\n  $str = 'Hello World';\n  echo strtoupper($str);\n?>",
+                    "options": [
+                        "HELLO WORLD",
+                        "hello world",
+                        "Hello World",
+                        "Compilation error"
+                    ],
+                    "answer": "HELLO WORLD"
+                },
+                {
+                    "question": "Which PHP function is used to get the current year?",
+                    "options": [
+                        "year()",
+                        "date('Y')",
+                        "current_year()",
+                        "getYear()"
+                    ],
+                    "answer": "date('Y')"
+                },
+                {
+                    "question": "What is the correct syntax to define a class in PHP?",
+                    "options": [
+                        "class ClassName { /* code */ }",
+                        "def ClassName { /* code */ }",
+                        "ClassName() { /* code */ }",
+                        "function ClassName() { /* code */ }"
+                    ],
+                    "answer": "class ClassName { /* code */ }"
+                },
+                {
+                    "question": "What is the purpose of the 'die' function in PHP?",
+                    "options": [
+                        "To exit the current loop",
+                        "To skip the current iteration",
+                        "To terminate the script execution",
+                        "To display an error message and terminate the script execution"
+                    ],
+                    "answer": "To display an error message and terminate the script execution"
+                },
+                {
+                    "question": "Which PHP function is used to check if a string contains a specific substring?",
+                    "options": [
+                        "string_contains()",
+                        "contains_string()",
+                        "strpos()",
+                        "str_contains()"
+                    ],
+                    "answer": "strpos()"
+                },
+                {
+                    "question": "What is the output of the following PHP code?\n\n<?php\n  $x = 10;\n  $y = '10';\n  if ($x == $y) {\n    echo 'Equal';\n  } else {\n    echo 'Not equal';\n  }\n?>",
+                    "options": [
+                        "Equal",
+                        "Not equal",
+                        "True",
+                        "False"
+                    ],
+                    "answer": "Equal"
+                },
+                {
+                    "question": "Which PHP array function is used to add one or more elements to the end of an array?",
+                    "options": [
+                        "array_push()",
+                        "array_pop()",
+                        "array_add()",
+                        "add_array()"
+                    ],
+                    "answer": "array_push()"
+                },
+                {
+                    "question": "What is the purpose of the 'use' keyword in PHP namespaces?",
+                    "options": [
+                        "To include a file",
+                        "To define a class",
+                        "To import a namespace",
+                        "To define a constant"
+                    ],
+                    "answer": "To import a namespace"
+                },
+                {
+                    "question": "What is the correct way to write a do-while loop in PHP?",
+                    "options": [
+                        "do { /* code */ } while (condition);",
+                        "while (condition) { /* code */ }",
+                        "for ($i = 0; $i < $n; $i++) { /* code */ }",
+                        "do { /* code */ } until (condition);"
+                    ],
+                    "answer": "do { /* code */ } while (condition);"
+                },
+                {
+                    "question": "What is the output of the following PHP code?\n\n<?php\n  $x = '10';\n  $y = 10;\n  echo ($x === $y) ? 'Equal' : 'Not equal';\n?>",
+                    "options": [
+                        "Equal",
+                        "Not equal",
+                        "True",
+                        "False"
+                    ],
+                    "answer": "Not equal"
+                }
+            ]
+        },
+        {
+            "level_10": [
+                {
+                    "question": "What is the output of the following PHP code?\n\n<?php\n  $str = 'Hello World';\n  echo strrev($str);\n?>",
+                    "options": [
+                        "dlroW olleH",
+                        "Hello World",
+                        "world hello",
+                        "Compilation error"
+                    ],
+                    "answer": "dlroW olleH"
+                },
+                {
+                    "question": "Which PHP function is used to get the current month?",
+                    "options": [
+                        "month()",
+                        "date('M')",
+                        "current_month()",
+                        "getMonth()"
+                    ],
+                    "answer": "date('M')"
+                },
+                {
+                    "question": "What is the correct syntax to define a constant in PHP?",
+                    "options": [
+                        "define('CONSTANT_NAME', value);",
+                        "constant CONSTANT_NAME = value;",
+                        "const CONSTANT_NAME = value;",
+                        "CONSTANT_NAME = value;"
+                    ],
+                    "answer": "const CONSTANT_NAME = value;"
+                },
+                {
+                    "question": "What is the purpose of the 'unset' function in PHP?",
+                    "options": [
+                        "To exit the current loop",
+                        "To remove a variable or array element",
+                        "To terminate the script execution",
+                        "To throw an exception"
+                    ],
+                    "answer": "To remove a variable or array element"
+                },
+                {
+                    "question": "Which PHP function is used to check if a string starts with a specific substring?",
+                    "options": [
+                        "starts_with()",
+                        "string_starts_with()",
+                        "str_starts_with()",
+                        "strpos()"
+                    ],
+                    "answer": "str_starts_with()"
+                },
+                {
+                    "question": "What is the output of the following PHP code?\n\n<?php\n  $x = 10;\n  $y = '10';\n  if ($x === $y) {\n    echo 'Equal';\n  } else {\n    echo 'Not equal';\n  }\n?>",
+                    "options": [
+                        "Equal",
+                        "Not equal",
+                        "True",
+                        "False"
+                    ],
+                    "answer": "Not equal"
+                },
+                {
+                    "question": "Which PHP array function is used to remove the last element from an array?",
+                    "options": [
+                        "array_push()",
+                        "array_pop()",
+                        "array_remove()",
+                        "remove_array()"
+                    ],
+                    "answer": "array_pop()"
+                },
+                {
+                    "question": "What is the purpose of the 'yield' keyword in PHP?",
+                    "options": [
+                        "To include a file",
+                        "To define a class",
+                        "To import a namespace",
+                        "To create a generator"
+                    ],
+                    "answer": "To create a generator"
+                },
+                {
+                    "question": "What is the correct way to write a foreach loop in PHP?",
+                    "options": [
+                        "foreach ($array as $value) { /* code */ }",
+                        "for ($i = 0; $i < $n; $i++) { /* code */ }",
+                        "foreach ($value as $array) { /* code */ }",
+                        "for ($value as $array) { /* code */ }"
+                    ],
+                    "answer": "foreach ($array as $value) { /* code */ }"
+                },
+                {
+                    "question": "What is the output of the following PHP code?\n\n<?php\n  $x = '10';\n  $y = 10;\n  echo ($x === $y) ? 'Equal' : 'Not equal';\n?>",
+                    "options": [
+                        "Equal",
+                        "Not equal",
+                        "True",
+                        "False"
+                    ],
+                    "answer": "Not equal"
+                }
+            ]
+        }
+    ]
+}

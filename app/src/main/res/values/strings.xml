@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ServiceApp</string>
+    <string name="a_flashing_red_traffic_light_signifies_that_a_driver_should_do_what">A flashing red traffic light signifies that a driver should do what?</string>
+    <string name="a_about">A : about 1000 miles per hour Abdelalai bay</string>
+    <string name="total_score_200">Total score 200</string>
+
+
+    <string name="dialog_message">AlerDialog</string>
+    <string name="dialog_title">GBAndroidBlogs</string>
+    <string name="success">Success</string>
+    <string name="warning">Warning</string>
+    <string name="error">Error</string>
+
+    <string name="success_title">Level up </string>
+    <string name="warning_title">Warning Title</string>
+    <string name="error_title">Time Over </string>
+    <string name="dummy_text">You can repeat it later !</string>
+    <string name="okay">Next Question</string>
+    <string name="yes">Next level</string>
+    <string name="no">back</string>
+    <string name="_6">6</string>
+    <string name="categories">Categories</string>
+    <string name="level_1">level 1</string>
+    <string name="quiz_name">Quiz name</string>
+    <string name="correct_answers">Correct answers</string>
+    <string name="incorrect_answers">Incorrect answers</string>
+
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutDialogContainer"
+    android:layout_margin="40dp"
+    android:layout_width="match_parent"
+    android:background="@drawable/layout_success_background"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/textTitle"
+                    android:background="@drawable/text_success_backround"
+                    android:padding="10dp"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="17sp"
+                    android:fontFamily="@font/bungee_inlin"
+                    android:textStyle="bold"
+                    android:drawablePadding="10dp"
+                    app:drawableTint="@color/white"
+                    app:drawableEndCompat="@drawable/ic_done" />
+
+                <ImageView
+                    android:id="@+id/img_score"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/img"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"/>
+    <ImageView
+        android:id="@+id/img_score_lost"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/lost_pic"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_marginTop="8dp"/>
+                <TextView
+                    android:id="@+id/textMessage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Excellent"
+                    android:fontFamily="@font/bungee_inlin"
+                    android:textColor="@color/colorNeutral"
+                    android:textSize="16sp"
+                   />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/consstrantlayout_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonActionHome"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:background="@drawable/btn_back_alert_background"
+                android:textColor="@color/colorWhite"
+                android:textSize="14sp"
+                android:text="back"
+                android:visibility="visible"
+                android:fontFamily="@font/bungee_inlin"
+                app:layout_constraintEnd_toStartOf="@+id/buttonAction"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonAction"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:visibility="visible"
+                android:background="@drawable/button_next_background"
+                android:text="Next"
+                android:fontFamily="@font/bungee_inlin"
+                android:textColor="@color/colorWhite"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:ignore="MissingConstraints" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/button_repeat"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:background="@drawable/round_refresh_24"
+        />
+
+</LinearLayout>
