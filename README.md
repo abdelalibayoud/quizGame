@@ -1,2 +1,2 @@
 # quizGame
-quiz game offline
+quiz appplication offline
